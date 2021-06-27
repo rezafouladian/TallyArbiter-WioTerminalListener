@@ -1,7 +1,8 @@
-# Tally Arbiter M5Stick-C Listener
-Tally Arbiter M5Stick-C Listener was written  by Joseph Adams and is distributed under the MIT License.
+# Tally Arbiter Wio Terminal Listener
+Tally Arbiter Wio Terminal, based on [Tally Arbiter M5Stick-C Listener by Joseph Adams](https://github.com/josephdadams/TallyArbiter-M5StickCListener).
+This code is distributed under the MIT License.
 
-Tally Arbiter M5Stick-C Listener is an accessory program that allows you to connect to a Tally Arbiter server and control an M5Stick-C ESP32 Arduino device from M5Stack based on the incoming tally information.
+Tally Arbiter Wio Terminal Listener is an accessory program that allows you to connect to a Tally Arbiter server and control a Wio Terminal Realtek RTL8720DN Arduino device from Seeed Studio based on the incoming tally information.
 
 To learn more about the Tally Arbiter project, [click here](http://github.com/josephdadams/tallyarbiter).
 
@@ -40,10 +41,8 @@ These will have to be included with the sketch file in order for it to compile p
 
 Once the code is successfully compiled and uploaded to the device. the M5Stick-C will boot up and automatically try to connect to your Tally Arbiter server. It will auto-assign itself to the first Device on the server, and you can reassign it through the Settings GUI of Tally Arbiter.
 
-Video Walkthrough: https://youtu.be/WMrRKD63Jrw
-
 ## Using the Device
-When you turn on the M5Stick-C device after it has been programmed, it will automatically connect to the wireless network using the settings provided, and then initiate a connection to the Tally Arbiter server. If the server is offline, just reboot the device after the server is back online.
+When you turn on the Wio Terminal after it has been programmed, it will automatically connect to the wireless network using the settings provided, and then initiate a connection to the Tally Arbiter server. If the server is offline, just reboot the device after the server is back online.
 
 If you press the `M5` button on the device, you can toggle between the tally window display and the Settings window, which shows the IP address and Tally Arbiter server information as well as the current battery level of the device.
 
